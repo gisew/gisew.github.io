@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprar Tickets</title>
+
+     
+     
+     <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="E:/trabajopractico/css/styleComprar.css">
+
+</head>
+<body>
+
+    <header>
+  
+          <nav class="navbar navbar-expand-lg navbar-dark static-top">
+            <div class="container" id="contd">
+              <a class="navbar-brand" href="#">
+                <img src="../trabajopractico/img/codoacodo.png" alt="logo"><sup>Conf Bs As</sup>
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto" width="500">
+                  <li class="nav-item">
+                    <a class="nav-link active " aria-current="page" href="#">La Conferencia</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Los oradores</a>
+                  </li>
+
+                  <li class="nav-item ">
+                    <a class="nav-link" href="#">El lugar y la fecha</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Conviertete en orador</a>
+                  </li>
+                 
+                  <li class="nav-item">
+                    <div>
+                    <a class="nav-link" href="comprar.html" id="comprar">Comprar Tickets</a></div>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </nav>
+          
+    </header>
+
+    <main>
+    
+ 
+
+ 
+ <div class="container-fluid">
+<table cellspacing="10"> 
+<tr> 
+<td><p class="tituloCuadrado">Estudiante</p>
+  
+  <p class="tieneUnDescuento">Tienen un descuento</p>
+  <p class="porcentaje">80%</p>
+  <br>
+  <p class="documentacion">*presentar documentación</p></td>
+
+<td><p class="tituloCuadrado">Trainee</p>
+
+  <p class="tieneUnDescuento">Tienen un descuento</p>
+  <p class="porcentaje">50%</p>
+  <br>
+  <p class="documentacion">*presentar documentación</p></td>
+
+<td class="cuadradoJunior"><p class="tituloCuadrado">Junior</p>
+  
+   <p class="tieneUnDescuento">Tienen un descuento</p>
+   <p class="porcentaje">15%</p>
+   <br>
+  <p class="documentacion">*presentar documentación</p></td> 
+</tr> 
+
+</table> 
+ 
+</div>
+    <p class="venta">VENTA</p>
+      <p class="ventaTicket"><sup>VALOR DE TICKET $200</sup></p>
+   
+
+</main>
+          
+<section class="formularioTickets">
+  <form class="formulario">
+    <div class="content" id="content">
+    <div class="form row">
+      <div class="form-group col-md-5">
+  
+        <input type="nombre" class="form-control" id="inputNombre" placeholder="Nombre">
+      </div>
+      <div class="form-group col-md-5">
+        
+        <input type="apellido" class="form-control" id="inputApellido" placeholder="Apellido">
+      </div>
+    
+    <br><br>
+    <div class="form-group col-md-10">
+        
+      <input type="correo" class="form-control" id="inputCorreo" placeholder="Correo">
+    </div>
+    <br><br>
+    <div class="form-group col-md-5">
+    <label for="inputCantidad">Cantidad</label> 
+    <input type="number" class="form-control" id="inputCantidad" placeholder="cantidad">
+    </div>
+
+   <div class="form-group col-md-5">
+      <label for="categoria">Categoria</label>
+      <select class="form-control" id="categoria">
+        <option>Estudiante</option>
+        <option>Trainee</option>
+        <option>Junior</option>
+        
+      </select>
+    </div>
+
+    <div class="form-group col-md-10">
+      <br>
+     <label class="total"><div id="resultado">Total a pagar: $</div></label> 
+      <br>
+    </div>
+  </div>
+    <br>
+   <div class="botonesVerdes">
+    <button type="button" class="btn btn-success" id="botonBorrar">Borrar</button>
+    &nbsp
+    <button type="button" class="btn btn-success" id="botonResumen">Resumen</button>
+    </div>
+    <br>
+    <br>
+    </div>
+  </form>
+</section>
+
+
+        
+  <div class="navbar navbar-inverse navbar-fixed-bottom" id="footer">
+    <div class="container">
+    <p class="navbar-text"><a href="preguntasFrecuentes.html">Preguntas<br>frecuentes</a></p>
+    <p class="navbar-text"><a href="contacto.html">Contáctanos</a></p>
+    <p class="navbar-text"><a href="prensa.html">Prensa</a></p>
+    <p class="navbar-text"><a href="conferencias.html">Conferencias</a></p>
+    <p class="navbar-text"><a href="tyc.html">Términos y<br> condiciones</a></p>
+    <p class="navbar-text"><a href="privacidad.html">Privacidad</a></p>
+    <p class="navbar-text"><a href="estudiantes.html">Estudiantes</a></p>
+    </div>
+
+    </div>
+    
+    
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="E:/trabajopractico/js/comprar.js"></script>
+  </body>
+</html>

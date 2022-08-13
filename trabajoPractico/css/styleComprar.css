@@ -1,0 +1,187 @@
+.navbar-dark{
+    height: 140px;
+    background: #464545;
+  }
+ 
+ 
+.navbar-brand{
+  font-size: 40px;
+}
+ 
+
+.nav-item{
+   font-size: 19px;
+   padding-bottom:25px;
+}
+ 
+  
+.container img[alt="logo"]{
+  height: 110px;
+  padding-bottom:15px;
+}
+ 
+
+#comprar {
+  color:green;
+}
+ 
+  
+.venta{
+  font-size:12px;
+  /*padding-top:10px;
+  line-height: 5px;*/
+  text-align: center;
+  /*padding-left:100px;*/
+  
+}
+
+.ventaTicket{
+  font-size:40px;
+  /*padding-top:10px;
+  line-height: 5px;*/
+  text-align: center;
+  /*padding-left:100px;*/
+  line-height:30px;
+}
+
+ 
+
+#exampleFormControlTextarea1{
+  width: 890px;
+}
+ 
+ #botonBorrar{
+   background-color: #B3E363;
+   border-color:transparent;
+  
+   width:357px;
+ }
+
+ #botonResumen{
+  background-color: #B3E363;
+  border-color:transparent;
+  
+  width: 357px;
+}
+
+
+.botonesVerdes{
+  margin: 0 auto;
+  display: flex;
+ 
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 890px;
+}
+ 
+
+.form{
+  margin: 0 auto;
+  display: flex;
+ 
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 890px;
+}
+
+table {
+  /*margin-top:30px;
+  margin-left: 297px;*/
+  margin:auto;
+  border-collapse: separate;
+  border: black 1px solid;
+}
+
+
+.cuadrado{
+  width: 250px;
+  height:200px;
+  
+  margin-left:250px;
+  margin-top: 1px;
+  margin-right:50px;
+  
+  color:black;
+  background-color: transparent;
+  border: solid 1px red;
+  
+}
+
+
+
+.tituloCuadrado{
+    
+  font-size: 20px;
+  font-weight: bold;
+}
+  
+.tieneUnDescuento{
+  font-size: 18px;
+}
+  
+
+.porcentaje{
+  font-weight: bold;
+  font-size:17px;
+}
+
+
+.documentacion{
+  color:gray;
+  font-size:15px;
+}
+
+
+table{ 
+  width: 748px; 
+  height:250px;
+  text-align: center; 
+  border : 0px solid gray; 
+} 
+
+
+td { 
+  border: 1px solid rgb(5, 76, 182) ;
+  background-color: white
+} 
+
+.cuadradoJunior{
+  border: 1px solid rgb(241, 208, 60) ;
+}
+
+
+.total{
+  font-size:15px;
+  color: rgb(17, 51, 145);
+  background-color:rgb(181, 218, 253);
+  border-radius: 5px;
+  margin:auto;
+  padding-top:10px;
+  padding-left:10px;
+  width: 720px;
+  height: 45px;
+}
+
+
+
+
+ #footer{
+  background: rgb(28,68,96);
+  background: linear-gradient(90deg, rgba(28,68,96,1) 0%, rgba(28,68,96,1) 51%, rgba(39,100,143,1) 100%);
+  text-emphasis-position: 10px;
+  height: 120px;
+}
+  
+
+ #footer p{
+  font-size: 20px;
+  text-align:middle;
+  margin-top: 15px;
+}
+  
+#footer p a{
+  color:white;
+  text-decoration:none;
+}
