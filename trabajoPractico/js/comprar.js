@@ -39,11 +39,11 @@ btnResumen.addEventListener('click',() => {
   function calcular(a,b,c){
 
         if(c === "Estudiante"){
-            return "Total a pagar: $ " + ((parseInt(a)*Number(b)) - (parseInt(a) * ((80*Number(b))/100)));
+            return "Total a pagar: $ " + (parseInt(a)*Number(b)) - (parseInt(a) * ((80*Number(b))/100));
         }if(c === "Trainee"){
-            return "Total a pagar: $ " + ((parseInt(a)*Number(b)) - (parseInt(a) * ((50*Number(b))/100)));
+            return "Total a pagar: $ " + (parseInt(a)*Number(b)) - (parseInt(a) * ((50*Number(b))/100));
         }else if(c === "Junior"){
-            return "Total a pagar: $ " + ((parseInt(a)*Number(b)) - (parseInt(a) * ((15*Number(b))/100)));
+            return "Total a pagar: $ " + (parseInt(a)*Number(b)) - (parseInt(a) * ((15*Number(b))/100));
         }
         
   }
